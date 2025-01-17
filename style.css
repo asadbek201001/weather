@@ -1,0 +1,240 @@
+body {
+    background-image: url('./DALL·E 2025-01-15 22.19.44 - A stunning 4K digital artwork of a modern digital library. The scene features an elegant, futuristic design with sleek bookshelves filled with glowing.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+menu {
+    width: 100%;
+    height: 10%;
+    background-color: #c8d18e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    align-items: center;
+}
+
+
+.Name {
+    padding: 20px;
+    color: green;
+    font-style: normal;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    color: black;
+  }
+  
+
+
+/* ________________________________________________________________________________________________________________________________ */
+  
+
+
+
+.bookContainer {
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.661);
+    position: absolute; 
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+ 
+    border-radius: 15px;
+}
+
+.input1 {
+    width: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.441);
+    border: 0 solid  rgba(255, 255, 255, 0.441);
+    font-size: 20px;
+}
+
+
+.input2 {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px; 
+    border-radius: 15px;
+    border: 0 solid  rgba(255, 255, 255, 0.441);
+    background-color: rgba(255, 255, 255, 0.441);
+    font-size: 20px;
+}
+.bookTittle {
+    margin-right: 230px;
+    color: aqua;
+}
+.bookTittle2 {
+    margin-right: 260px;
+}
+
+.addButton {
+    width: 200px;
+    height: 50px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+
+}
+
+.addButton:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.7); 
+    background-color: #45a049; 
+}
+
+
+/* ________________________________________________________________________________________________________________________________ */
+
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px; 
+    justify-content: flex-start; 
+    padding: 20px;
+    top: 70%;
+    position: relative; 
+    gap: 50px;
+}
+
+.note-container {
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #c8d18ecf;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.delete-button {
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    border: none;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.delete-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.7); 
+    background-color: #45a049; 
+}
+
+
+.reading-button {
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    border: none;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.reading-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.7); 
+    background-color: #45a049; 
+}
+.read-button {
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    border: none;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.read-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.7); 
+    background-color: #45a049; 
+}
+.unread-button {
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    border: none;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.unread-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.7); 
+    background-color: #45a049; 
+}
+
+
+
+.note-title {
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+
+
+
+.note-author {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.note-reading {
+    font-size: 30px;
+    margin-left: 40px;
+
+}
+
