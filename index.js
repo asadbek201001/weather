@@ -12,7 +12,7 @@ const titleInput = document.querySelector(".input1");
 const addButton = document.querySelector(".addButton");
 const notesContainer = document.querySelector(".notes-container");
 
-const createNote = () => {
+const createNote = (place, temperature = "Unknown", humidity = "Unknown", windSpeed = "Unknown") => {
     const newNote = document.createElement("div");
     newNote.className = "note-container";
 
